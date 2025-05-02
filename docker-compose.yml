@@ -1,6 +1,7 @@
-version: '3'
+version: '3.9'
+
 services:
-  app: 
-    build: .
+  web:
+    image: /react-app:latest
     ports:
-      - '3001:80'
+      - "8000:8000"
